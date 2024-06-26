@@ -1,0 +1,123 @@
+/* app.css */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Button Styles */
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Course Listing Styles */
+.course-listing {
+  list-style-type: none;
+  padding: 0;
+}
+
+.course-item {
+  border-bottom: 1px solid #ccc;
+  padding: 15px 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.course-item:last-child {
+  border-bottom: none;
+}
+
+.course-thumbnail {
+  width: 100px;
+  height: auto;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+
+.course-details {
+  flex-grow: 1;
+}
+
+.course-name {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+.instructor-name {
+  font-size: 0.9em;
+  color: #6c757d;
+  margin-bottom: 10px;
+}
+
+.course-progress {
+  width: 100%;
+  background-color: #e9ecef;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #28a745;
+}
+
+/* Student Dashboard Styles */
+.student-dashboard {
+  margin-top: 20px;
+}
+
+.student-dashboard h1 {
+  text-align: center;
+}
+
+.student-dashboard .course-list {
+  margin-top: 20px;
+}
+
+/* Course Details Page Styles */
+.course-details-page {
+  margin-top: 20px;
+}
+
+.course-details-page h1 {
+  text-align: center;
+}
+
+/* Additional Components Styles */
+/* Add more component-specific styles here */
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-2 {
+  margin-top: 20px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}

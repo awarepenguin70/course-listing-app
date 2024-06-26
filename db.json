@@ -1,0 +1,235 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "name": "Introduction to React",
+      "instructor": {
+        "name": "John Doe",
+        "bio": "John Doe is a seasoned software engineer with over 10 years of experience in web development. He has worked with multiple Fortune 500 companies and is a React enthusiast."
+      },
+      "description": "Learn React fundamentals and build dynamic user interfaces. This course covers essential React concepts, including components, state management, hooks, and routing.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://miro.medium.com/v2/resize:fit:720/format:webp/1*y6C4nSvy2Woe0m7bWEn4BA.png",
+      "duration": "10 weeks",
+      "schedule": "Monday, Wednesday, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "prerequisites": ["Basic JavaScript"],
+      "fee": "$300",
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React",
+          "content": "Overview of React, understanding JSX, creating a basic React component."
+        },
+        {
+          "week": 2,
+          "topic": "Working with Components",
+          "content": "Building functional and class components, props and state."
+        },
+        {
+          "week": 3,
+          "topic": "State and Lifecycle",
+          "content": "Managing state, lifecycle methods, and lifting state up."
+        },
+        {
+          "week": 4,
+          "topic": "Handling Events",
+          "content": "Event handling in React, conditional rendering, and lists."
+        },
+        {
+          "week": 5,
+          "topic": "Forms and Controlled Components",
+          "content": "Building and managing forms, controlled vs uncontrolled components."
+        },
+        {
+          "week": 6,
+          "topic": "Hooks",
+          "content": "Introduction to React hooks, useState, and useEffect."
+        },
+        {
+          "week": 7,
+          "topic": "Context API",
+          "content": "State management using Context API, avoiding prop drilling."
+        },
+        {
+          "week": 8,
+          "topic": "React Router",
+          "content": "Implementing routing in React applications using React Router."
+        },
+        {
+          "week": 9,
+          "topic": "Advanced Hooks",
+          "content": "Exploring useReducer, useMemo, and useCallback."
+        },
+        {
+          "week": 10,
+          "topic": "Project Week",
+          "content": "Building a complete React project, applying all learned concepts."
+        }
+      ],
+      "students": [
+        {
+          "id": 101,
+          "name": "Alice",
+          "email": "alice@example.com",
+          "progress": "Completed Week 1"
+        },
+        {
+          "id": 102,
+          "name": "Bob",
+          "email": "bob@example.com",
+          "progress": "Enrolled"
+        },
+        {
+          "id": 103,
+          "name": "Charlie",
+          "email": "charlie@example.com",
+          "progress": "Completed Week 3"
+        }
+      ],
+      "reviews": [
+        {
+          "studentId": 101,
+          "rating": 5,
+          "comment": "Great course! The instructor explained concepts very clearly."
+        },
+        {
+          "studentId": 103,
+          "rating": 4,
+          "comment": "Very informative, but the pace was a bit fast."
+        }
+      ],
+      "additionalResources": [
+        {
+          "title": "React Documentation",
+          "link": "https://reactjs.org/docs/getting-started.html"
+        },
+        {
+          "title": "JavaScript ES6 Guide",
+          "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Introduction"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Advanced Python Programming",
+      "instructor": {
+        "name": "Jane Smith",
+        "bio": "Jane Smith is a data scientist with over 15 years of experience in Python programming and machine learning. She has contributed to several open-source projects and published numerous research papers."
+      },
+      "description": "Deep dive into advanced Python programming techniques. This course covers advanced topics such as decorators, generators, concurrency, and performance optimization.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fde.wikipedia.org%2Fwiki%2FPython_Software_Foundation&psig=AOvVaw1lbbzi3LHG1MP7wQzRTS0g&ust=1719475023807000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLCd0-Dl-IYDFQAAAAAdAAAAABAd",
+      "duration": "12 weeks",
+      "schedule": "Tuesday, Thursday, 7:00 PM - 9:00 PM",
+      "location": "Online",
+      "prerequisites": ["Intermediate Python"],
+      "fee": "$400",
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Advanced Functions",
+          "content": "Decorators, higher-order functions, and closures."
+        },
+        {
+          "week": 2,
+          "topic": "Iterators and Generators",
+          "content": "Building iterators and generators, the itertools module."
+        },
+        {
+          "week": 3,
+          "topic": "Object-Oriented Programming",
+          "content": "Advanced OOP concepts, metaclasses, and magic methods."
+        },
+        {
+          "week": 4,
+          "topic": "Concurrency",
+          "content": "Threading, multiprocessing, and asyncio."
+        },
+        {
+          "week": 5,
+          "topic": "Networking",
+          "content": "Socket programming, building network applications."
+        },
+        {
+          "week": 6,
+          "topic": "Performance Optimization",
+          "content": "Profiling and optimizing Python code, using Cython."
+        },
+        {
+          "week": 7,
+          "topic": "Testing and Debugging",
+          "content": "Advanced testing techniques, debugging tools."
+        },
+        {
+          "week": 8,
+          "topic": "Data Science Libraries",
+          "content": "Using NumPy, pandas, and Matplotlib for data analysis."
+        },
+        {
+          "week": 9,
+          "topic": "Web Development",
+          "content": "Building web applications with Flask and Django."
+        },
+        {
+          "week": 10,
+          "topic": "Machine Learning",
+          "content": "Introduction to machine learning with scikit-learn."
+        },
+        {
+          "week": 11,
+          "topic": "Security",
+          "content": "Writing secure Python code, common vulnerabilities."
+        },
+        {
+          "week": 12,
+          "topic": "Project Week",
+          "content": "Developing a comprehensive project applying all learned concepts."
+        }
+      ],
+      "students": [
+        {
+          "id": 201,
+          "name": "Dave",
+          "email": "dave@example.com",
+          "progress": "Completed Week 5"
+        },
+        {
+          "id": 202,
+          "name": "Eva",
+          "email": "eva@example.com",
+          "progress": "Enrolled"
+        },
+        {
+          "id": 203,
+          "name": "Frank",
+          "email": "frank@example.com",
+          "progress": "Completed Week 8"
+        }
+      ],
+      "reviews": [
+        {
+          "studentId": 201,
+          "rating": 5,
+          "comment": "This course was incredibly detailed and well-structured."
+        },
+        {
+          "studentId": 203,
+          "rating": 4,
+          "comment": "Excellent course, but some topics were quite challenging."
+        }
+      ],
+      "additionalResources": [
+        {
+          "title": "Python Official Documentation",
+          "link": "https://docs.python.org/3/"
+        },
+        {
+          "title": "Real Python",
+          "link": "https://realpython.com/"
+        }
+      ]
+    }
+  ]
+}
+
